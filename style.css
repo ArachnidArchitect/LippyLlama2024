@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.logoico {
+	width: 45px;
+	margin: 5px;
+	float: right;
+}
+.container {
+	min-width: 300px;
+
+}
+.navbar {
+	display: inline-flex;
+	flex-grow: 1;
+	width:100%;
+	background-color: #0B2545;
+	margin: 0;
+	position: sticky;
+	top: 0px;
+}
+
+label{
+	width: 30px;
+}
+nav{
+	flex: 1;
+	margin-right: 2%;
+}
+nav ul {
+	list-style: none;
+	float: right;
+	
+}
+nav ul li{
+		display: inline-block;
+		padding: 30px;
+		font-family: 'Montserrat', sans-serif;
+			background-color: ##F0E2A3;
+
+
+}
+a:link {
+	text-decoration: none;
+	color: #fff;
+}
+a:visited{
+		text-decoration: none;
+	color: #fff;
+}
+
+nav ul li:hover {
+	background-color: #619DE5;
+	color: #fff;
+	text-decoration: bold;
+}
+nav ul li:hover  nav ul li a{
+
+	text-decoration: bold;
+}
+/*End of NAVIGATION BAR*/
+
+
+
+
+
+.container {
+	max-width: 3100px;
+	background-color: #F89697;
+	border-bottom:2px solid #F89697;
+
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.col-2 img{
+	width: 100%;
+}
+
+.col-2 .ltd {
+	size : 130px;
+	line-height: 160px;
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #FDD9D9;
+	padding-left: 20px;
+	font-weight: 1000;
+
+}
+.about{
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 20px;
+}
+
+.abt-container{
+	max-width: 3100px;
+	border-bottom: 2px solid #EACDC2;
+	text-align: center;
+	display: flex;
+	flex:1;
+	background-color: #EACDC2;
+}
+.abt-header{
+	font-family: 'Cabin Sketch', cursive;
+	text-transform: uppercase;
+	text-decoration: underline;
+	padding: 2em;
+	margin-top: 2em;
+	color: #cf1e60;
+	
+	
+
+}
+.abt-content{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	line-height: 1em;
+	padding-bottom: 5em;
+	padding-top: 1em;
+	
+color: #1A1423;
+
+}
+p.abt-text {
+	justify-content: space-around;
+	padding-left: 10px;
+	padding: 10px;
+}
+/* products sections */
+section#prd-container{
+	height: 80vh;
+	font-family: 'Montserrat', sans-serif;
+	color: #cf1e60;
+}
+#prd-container .main-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 100%;
+}
+/* gallery/carousel section */
+.prd-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 2em;
+}
+.myCarousel{
+	display: flex;
+	align-items: center;
+	   border-radius: 2em;
+	   overflow: hidden;
+	   width: 80%;
+	   margin: 0 auto;
+	   margin-top: 1em;
+	   margin-bottom: 1em;
+	   padding: 1em 2em 1em 2em;
+   
+   }
+   .myCarousel::-webkit-scrollbar{
+	   width: 3em;
+	 
+   }
+   .myCarousel::-webkit-scrollbar-track{
+	   box-shadow: inset 0 0 5px grey; 
+	   border-radius: 10px;
+	   margin: 3em;
+   }
+   .myCarousel::-webkit-scrollbar-thumb {
+	   background: #0D6EFD; 
+	   border-radius: 10px;
+	 }
+   
+	 .myCarousel::-webkit-scrollbar-thumb:hover {
+	   background: #3585FD; 
+	 }
+   .myGrid {
+   display: grid;
+   grid-template-columns: 350px 350px 350px;
+   grid-template-rows: auto;
+   gap: 0px;
+   background-color: white;
+   color: #cf1e60;
+   }
+   
+   .myGridItem {
+   background-color: rgba(255, 255, 255, 0.8);
+   text-align: center;
+   font-size: 15px;
+   } 
+
+
+
+
+footer {
+	background-color: #0B2545;
+	text-align: center;
+	padding: 20px;
+}
